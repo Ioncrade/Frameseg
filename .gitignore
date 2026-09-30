@@ -1,0 +1,70 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.docker.example
+*.pem
+*.key
+
+# Prototype workspace (not part of the production application)
+/testscripts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+.turbo/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime media, generated masks, and render artifacts
+/runtime/
+/data/
+/backend/data/
+**/output/
+**/outputs/
+**/uploads/
+**/previews/
+**/selections/
+*.partial
+
+# Downloaded model weights and caches
+/.cache/
+**/huggingface/
+*.ckpt
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+

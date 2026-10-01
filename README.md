@@ -260,3 +260,8 @@ validated with a short real clip after the static checks pass.
 
 Contributions that improve tracking quality, resource scheduling, export
 compatibility, or production durability are welcome.
+
+## License
+
+FrameSeg is licensed under the Apache License 2.0. See [`LICENSE`](LICENSE)
+for the full license terms.
